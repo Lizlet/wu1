@@ -1,0 +1,53 @@
+/*
+ * I realised just before I started on this stylesheet that I would be reusing code.
+ * I sorta discovered that my code is in fact quite modular. there might be a way
+ * to assign specific styles to every second nested div and such... or perhaps use
+ * some sort of OR condition in the selectors. even if that is not possible however
+ * I know that my stylesheets could have been better. Perhaps for next time.
+ */
+#openinghours {
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: inset 20px 20px 20px 0px #888888;
+}
+
+#openinghours table {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #FFF8E7;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#openinghours td {
+    border: 1px solid grey;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#openinghours th {
+    border: 1px solid black;
+    text-align: left;
+    background-color: lightgrey;
+}
+
+#openinghours #emptycell {
+    border: none;
+    background-color: #FFF8E7;
+}
+
+#openinghours #TRcorner {
+    border-radius: 0 10px  0 0;
+}
+
+#openinghours #BLcorner {
+    border-radius: 0 0 0 10px;
+}
+
+#openinghours #BRcorner {
+    border-radius: 0 0 10px 0;
+}
