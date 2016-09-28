@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <!--I had source for js function at one point, but I think I closed the tab accidentally and
+            I am now completely incapable of finding it again, only thing I did was change the function
+            name to to getBrowser and changed alert(x); to return x; All I know is that it was on
+            stackoverflow. Problem is just that there are too many people there asking the exact same
+            question, since it is not as straightforward as one would think.
+            I am certain that at one point in time, navigator.appName would return the correct browser
+            but now, I am pretty sure no matter which browser you use, appName will always return Netscape
+            and appCodeName will always return mozilla. If you use navigator.userAgent, the correct broweser
+            name will show up, but I am not good enough with regex to strip away all the superfluous... stuff
+            if that is even possible. As I said, not very experienced with regex.
+        -->
+        <script>
+            function getBrowser()
+            {
+                if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
+                {
+                    return 'Opera';
+                }
+                else if(navigator.userAgent.indexOf("Chrome") != -1 )
+                {
+                    return 'Chrome';
+                }
+                else if(navigator.userAgent.indexOf("Safari") != -1)
+                {
+                    return 'Safari';
+                }
+                else if(navigator.userAgent.indexOf("Firefox") != -1 ) 
+                {
+                     return 'Firefox';
+                }
+                else if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )) //IF IE > 10
+                {
+                  return 'IE'; 
+                }  
+                else 
+                {
+                   return 'unknown';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <p>
+                Hei, du bruker 
+                <script type="text/javascript">
+                    var r = getBrowser();
+                    document.write(r);
+                </script>
+                 og klokka er 
+                 <script>
+                    var t = new Date();
+                    document.write(("0" + t.getHours()).slice(-2)+":"+
+                                   ("0" + t.getMinutes()).slice(-2)+":"+
+                                   ("0" + t.getSeconds()).slice(-2));
+                 </script>
+            </p>
+        </main>
+
+    </body>
+</html>

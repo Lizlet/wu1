@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript rollover</title>
+        <script type="text/javascript">
+function mouseOver(image) {
+    if (image.src.indexOf("resources/f1.png") != -1) {
+        image.src = "resources/f2.png";
+    }
+    else if (image.src.indexOf("resources/g1.png") != -1) {
+        image.src = "resources/g2.png";
+    }
+    else if (image.src.indexOf("resources/in1.png") != -1) {
+        image.src = "resources/in2.png";
+    }
+}
+function mouseOut(image) {
+    if (image.src.indexOf("resources/f2.png") != -1) {
+        image.src = "resources/f1.png";
+    }
+    else if (image.src.indexOf("resources/g2.png") != -1) {
+        image.src = "resources/g1.png";
+    }
+    else if (image.src.indexOf("resources/in2.png") != -1) {
+        image.src = "resources/in1.png";
+    }
+}
+        </script>
+    </head>
+    <body>
+        <p>
+        Hey, I did go out of my way to find logos that were explicitly marked as
+        free to use, share or modify. Had some I just picked up off the street but
+        then I got oddly paranoid about it for some reason.<br>
+        I figured the javascript part is the important thing here so I am not going
+        try and wrap a website around it. Whether i repositioned it or moved it around
+        would not suddenly make it stop working... I think. It would just be a bunch of Lorem Ipsum anyway.
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="resources/f1.png"
+                         alt="I am pretty much only entering this because some plugin is complaing"
+                         onmouseover="mouseOver(this)"
+                         onmouseout="mouseOut(this)"></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com" target="_blank">
+                    <img src="resources/g1.png"
+                         alt="Filler because complaining plugins"
+                         width="100"
+                         onmouseover="mouseOver(this)"
+                         onmouseout="mouseOut(this)"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="resources/in1.png"
+                         alt="More filler, I am sure this would be useful for people not loading images though..."
+                         width="100"
+                         onmouseover="mouseOver(this)"
+                         onmouseout="mouseOut(this)"></a>
+            </li>
+        </ul>
+    </body>
+</html>
