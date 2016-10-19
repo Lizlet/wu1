@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="formstyle.css">
+
+    <script>
+        function check()
+        {
+            var password1 = document.getElementById("password1");
+            var password2 = document.getElementById("password2");
+
+            if (password1.value == password2.value)
+            {
+                password1.style.borderColor = "#00ff00";
+                password2.style.borderColor = "#00ff00";
+                document.getElementById("submit").disabled = false;
+            }
+            else
+            {
+                password1.style.borderColor = "#ff0000";
+                password2.style.borderColor = "#ff0000";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="allform">
+        <form action="">
+            <input type="text" name="firstname" id="firstname" placeholder="Fornavn" minlength=2 maxlength=20 required></br>
+            <input type="text" name="lastname" id="lastname" placeholder="Etternavn" minlength=2 maxlength=30 required></br>
+            <input type="number" name="age" id="age" placeholder="Alder" min=5 max=120 required></br>
+            <input type="radio" name="member" id="member" required>
+            <label for="member">Jeg er medlem fra før</label></br>
+            <input type="radio" name="member" id="non-member" required>
+            <label for="non-member">Jeg er ikke medlem fra før</label></br>
+            <input type="text" name="username" id="username" placeholder="Brukernavn" minlength=4 maxlength=20></br>
+            <input type="password" name="password1" id="password1" placeholder="Passord" required></br>
+            <input type="password" name="password2" id="password2" placeholder="Gjenta passord" required onkeyup="check();"></br>
+            <input type="submit" id="submit" disabled>
+            <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
