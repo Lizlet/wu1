@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Øving 6</title>
+<style>
+         html { background-color: #E0FFFF; }
+        #left { float: left;
+                position: relative;
+                left: 50%; }
+       #right { float: right;
+                position: relative;
+                right: 50%; }
+       .fleft { float: left; }
+      .fright { float: right; }
+          img { opacity: 0.5; }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+$(document).ready(function() {
+    $(".hover").mouseover(function() {
+        $(this).children(".image").stop().css({opacity: 1});
+    });
+
+    $(".hover").mouseleave(function() {
+        $(this).children(".image").stop().css({opacity: 0.5});
+    });
+});
+    </script>
+</head>
+<body>
+    <!-- Im just going to pretend this layout was inteded, not like it even matters -->
+    <div id="left">
+        <div id="right">
+            <section>
+                <div class="hover fleft">
+                    <img src="./resources/image1.jpg" alt="Earth, our world." class="image">
+                </div>
+                <!-- http://www.thedailysheeple.com/wp-content/uploads/2014/10/Earth-Our-World-Public-Domain-300x300.jpg -->
+                <div class="hover fright">
+                    <img src="./resources/image2.jpg" alt="Ominous storm clouds gathering" class="image"></br>
+                </div>
+                <!-- http://www.thedailysheeple.com/wp-content/uploads/2014/10/Ominous-Storm-Clouds-Gathering-Public-Domain-300x300.jpg -->
+                <div class="hover fleft">
+                    <img src="./resources/image3.jpg" alt="Stock market collapse" class="image">
+                </div>
+                <!-- http://www.thedailysheeple.com/wp-content/uploads/2014/10/Stock-Market-Collapse-Public-Domain-300x300.jpg -->
+                <div class="hover fright">
+                    <img src="./resources/image4.jpg" alt="Social Media" class="image"></br>
+                </div>
+                <!-- http://www.thedailysheeple.com/wp-content/uploads/2014/10/Social-Media-Public-Domain-300x300.jpg -->
+                <div class="hover fleft">
+                    <img src="./resources/image5.jpg" alt="Unemployment" class="image">
+                </div>
+                <!-- https://counterinformation.files.wordpress.com/2016/01/unemployment-public-domain-300x300.jpg?w=300 -->
+                <div class="hover fright">
+                    <img src="./resources/image6.jpg" alt="Brain" class="image">
+                </div>
+                <!-- http://tomohalloran.com/wp-content/uploads/2015/03/Brain-Public-Domain-300x300-300x300.jpg -->
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
