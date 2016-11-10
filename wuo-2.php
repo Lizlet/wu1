@@ -4,11 +4,6 @@
 <head>
     <title>Assignment 2 - Simple HTML</title>
     <?php include("./resources/includes/head.html") ?>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#wuo-2mi").attr('class', "active");
-        })
-    </script>
 </head>
 
 <body>
@@ -53,5 +48,11 @@
 <?php include("./resources/includes/footer.html") ?>
 
 </body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#wuo-2mi").attr('class', "active");
+    })
+</script>
 
 </html>
