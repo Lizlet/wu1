@@ -6,7 +6,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 20%;
+  padding-bottom: 200px;
 }
 .footer {
   position: absolute;
