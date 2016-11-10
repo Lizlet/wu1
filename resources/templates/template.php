@@ -7,7 +7,6 @@
 </head>
 
 <body>
-</body>
 
 <?php include("./resources/includes/navbar.html") ?>
 
@@ -19,4 +18,5 @@
 
 <?php include("./resources/includes/footer.html") ?>
 
+</body>
 </html>

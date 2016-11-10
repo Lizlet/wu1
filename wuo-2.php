@@ -7,7 +7,6 @@
 </head>
 
 <body>
-</body>
 
 <?php include("./resources/includes/navbar.html") ?>
 
@@ -40,10 +39,10 @@
     <p>
         Sed haec ab Antiocho, familiari nostro, dicuntur multo melius et fortius, quam a Stasea dicebantur. Ex quo intellegitur, quoniam se ipsi omnes natura diligant, tam insipientem quam sapientem sumpturum, quae secundum naturam sint, reiecturumque contraria. Num igitur dubium est, quin, si in re ipsa nihil peccatur a superioribus, verbis illi commodius utantur? Itaque his sapiens semper vacabit. Quod enim vituperabile est per se ipsum, id eo ipso vitium nominatum puto, vel etiam a vitio dictum vituperari. Ne vitationem quidem doloris ipsam per se quisquam in rebus expetendis putavit, nisi etiam evitare posset. Quando enim Socrates, qui parens philosophiae iure dici potest, quicquam tale fecit? Non quaero, quid dicat, sed quid convenienter possit rationi et sententiae suae dicere. Iam quae corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem.
     </p>
-
-
 </div>
 
 <?php include("./resources/includes/footer.html") ?>
+
+</body>
 
 </html>
