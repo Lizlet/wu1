@@ -20,10 +20,14 @@
         Adipiscing elit. Quae autem natura suae primae institutionis oblita est? Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Portenta haec esse dicit, neque ea ratione ullo modo posse vivi; Duo Reges: constructio interrete. Critolaus imitari voluit antiquos, et quidem est gravitate proximus, et redundat oratio, ac tamen is quidem in patriis institutis manet. Nunc de hominis summo bono quaeritur; Sed quoniam et advesperascit et mihi ad villam revertendum est, nunc quidem hactenus; Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. Ita finis bonorum existit secundum naturam vivere sic affectum, ut optime is affici possit ad naturamque accommodatissime. Egone quaeris, inquit, quid sentiam? Id enim natura desiderat. Tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit;
     </p>
 
-    <h2>Nemo nostrum istius generis</h2>
-    <p>
-        Asotos iucunde putat vivere. Sed quanta sit alias, nunc tantum possitne esse tanta. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Erit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quam tu ponis in verbis, ego positam in re putabam. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quam ob rem tandem, inquit, non satisfacit? His similes sunt omnes, qui virtuti student levantur vitiis, levantur erroribus, nisi forte censes Ti.
-    </p>
+    <div class="row">
+        <div class="col-4-12">
+            <h2>Nemo nostrum istius generis</h2>
+            <p>
+                Asotos iucunde putat vivere. Sed quanta sit alias, nunc tantum possitne esse tanta. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Erit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quam tu ponis in verbis, ego positam in re putabam. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quam ob rem tandem, inquit, non satisfacit? His similes sunt omnes, qui virtuti student levantur vitiis, levantur erroribus, nisi forte censes Ti.
+            </p>
+        </div>
+    </div>
 
     <h2>Quae possunt eadem contra Carneadeum</h2>
     <p>
