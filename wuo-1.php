@@ -18,7 +18,7 @@
         <h1>Assignment 1 <small>Introduction to web development</small></h1>
     </header>
     <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://sites.google.com/site/wuoving1sondregroneng/">
+        <iframe class="embed-responsive-item" src="https://sites.google.com/site/wuoving1sondregroneng/" margin-bottom="10px">
         </iframe>
     </div>
 </div>
