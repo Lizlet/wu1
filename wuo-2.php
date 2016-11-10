@@ -25,7 +25,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img src="./resources/images/image1.jpg">
+                    <img class="img-responsive" src="./resources/images/image1.jpg">
                 </td>
                 <td>
                     <p>
