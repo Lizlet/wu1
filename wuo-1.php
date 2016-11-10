@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+</body>
 <?php include("./resources/includes/navbar.html") ?>
 <div class="container">
     <header class="page-header">
@@ -22,5 +24,4 @@
     </div>
 </div>
 <?php include("./resources/includes/footer.html") ?>
-</body>
 </html>
