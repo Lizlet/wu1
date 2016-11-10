@@ -7,7 +7,9 @@
 </head>
 
 <body>
+
 <?php include("./resources/includes/navbar.html") ?>
+
 <div class="container">
     <header class="page-header">
         <h1>Assignment 1 <small>Introduction to web development</small></h1>
@@ -17,6 +19,8 @@
         </iframe>
     </div>
 </div>
+
 <?php include("./resources/includes/footer.html") ?>
+
 </body>
 </html>
