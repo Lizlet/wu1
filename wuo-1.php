@@ -21,6 +21,6 @@
         </iframe>
     </div>
 </div>
-<?php include("./resources/includes/footer.html") ?>
+
 </body>
 </html>
