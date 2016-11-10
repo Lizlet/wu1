@@ -49,10 +49,4 @@
 
 </body>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#wuo-2mi").attr('class', "active");
-    })
-</script>
-
 </html>
