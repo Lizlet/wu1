@@ -12,11 +12,11 @@
 
 <body>
 </body>
+<div class="page-header">
+    <h1>Assignment 1 <small>Introduction to web development</small></h1>
+</div>
 <?php include("./resources/includes/navbar.html") ?>
 <div class="container">
-    <div class="page-header">
-        <h1>Assignment 1 <small>Introduction to web development</small></h1>
-    </div>
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://sites.google.com/site/wuoving1sondregroneng/">
         </iframe>
