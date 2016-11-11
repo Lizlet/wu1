@@ -6,7 +6,8 @@
     <?php include("./resources/includes/head.html") ?>
     <style type="text/css">
         .img-responsibe {
-            min-width: 100px;
+            min-width: 300px;
+            min-height: 300px;
         }
     </style>
 </head>
