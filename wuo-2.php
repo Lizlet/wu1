@@ -12,7 +12,7 @@
 
 <div class="container">
     <div class="page-header">
-        <h1><strong>Assignment 2</strong> <small>Simple HTML</small></h1>
+        <h1>Assignment 2 <small>Simple HTML</small></h1>
     </div>
 
     <h2>Lorem ipsum dolor sit amet, consectetur</h2>
