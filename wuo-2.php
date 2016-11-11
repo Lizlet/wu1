@@ -25,7 +25,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img class="img-responsive" src="./resources/images/image1.jpg">
+                    <img class="img-responsive" src="./resources/images/image1.jpg" min-width="300" min-height="300">
                 </td>
                 <td>
                     Asotos iucunde putat vivere. Sed quanta sit alias, nunc tantum possitne esse tanta. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Erit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quam tu ponis in verbis, ego positam in re putabam. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quam ob rem tandem, inquit, non satisfacit? His similes sunt omnes, qui virtuti student levantur vitiis, levantur erroribus, nisi forte censes Ti.
