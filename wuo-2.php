@@ -28,18 +28,25 @@
                     <img class="img-responsive" src="./resources/images/image1.jpg">
                 </td>
                 <td>
-                    <p>
-                        Asotos iucunde putat vivere. Sed quanta sit alias, nunc tantum possitne esse tanta. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Erit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quam tu ponis in verbis, ego positam in re putabam. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quam ob rem tandem, inquit, non satisfacit? His similes sunt omnes, qui virtuti student levantur vitiis, levantur erroribus, nisi forte censes Ti.
-                    </p>
+                    Asotos iucunde putat vivere. Sed quanta sit alias, nunc tantum possitne esse tanta. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Erit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quam tu ponis in verbis, ego positam in re putabam. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quam ob rem tandem, inquit, non satisfacit? His similes sunt omnes, qui virtuti student levantur vitiis, levantur erroribus, nisi forte censes Ti.
                 </td>
             </tr>
         </tbody>
     </table>
 
     <h2>Quae possunt eadem contra Carneadeum</h2>
-    <p>
-        Illud summum bonum dici, quod is non tam, ut probaret, protulit, quam ut Stoicis, quibuscum bellum gerebat, opponeret. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Intrandum est igitur in rerum naturam et penitus quid ea postulet pervidendum; Tum Torquatus: Prorsus, inquit, assentior; Mihi, inquam, qui te id ipsum rogavi? His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia.
-    </p>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>
+                    <img class="img-responsive" src="./resources/images/image2.jpg">
+                </td>
+                <td>
+                    Illud summum bonum dici, quod is non tam, ut probaret, protulit, quam ut Stoicis, quibuscum bellum gerebat, opponeret. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Intrandum est igitur in rerum naturam et penitus quid ea postulet pervidendum; Tum Torquatus: Prorsus, inquit, assentior; Mihi, inquam, qui te id ipsum rogavi? His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. 
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
     <h2>Magno hic ingenio, sed res se tamen sic habet</h2>
     <p>
