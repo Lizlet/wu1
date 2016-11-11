@@ -4,6 +4,9 @@
 <head>
     <title>Assignment 2 - Simple HTML</title>
     <?php include("./resources/includes/head.html") ?>
+    <style type="text/css">
+        .img-responsive{width:100%;}
+    </style>
 </head>
 
 <body>
